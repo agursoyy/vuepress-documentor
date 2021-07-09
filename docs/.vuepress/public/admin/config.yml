@@ -9,9 +9,17 @@ media_folder: "docs/.vuepress/public/images"
 public_folder: "/upload"
 
 collections:
-  - name: "doc"
-    label: "Doc"
-    folder: "docs"
+  - name: "getting-started"
+    label: "Getting Started"
+    folder: "docs/getting-started"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "building-a-request"
+    label: "Building a Request"
+    folder: "docs/building-a-request"
     create: true
     slug: "{{slug}}"
     fields:
