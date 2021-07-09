@@ -38,6 +38,12 @@ module.exports = {
       {
         ...getSideBar("/getting-started", "Getting Started"),
       },
+      {
+        ...getSideBar(
+          "/public-api-method-details",
+          "Public Api Method Details"
+        ),
+      },
     ],
   },
 };
