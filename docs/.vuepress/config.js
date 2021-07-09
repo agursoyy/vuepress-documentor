@@ -1,3 +1,5 @@
+var getChildren = require("./childscript");
+
 module.exports = {
   title: "Hello VuePress",
   description: "Just playing around",
@@ -22,6 +24,13 @@ module.exports = {
             path: "/getting-started/building-a-request",
           },
         ],
+      },
+      {
+        title: "Public API Method Details", // required
+        path: "/public-api-method-details/", // optional, link of the title, which should be an absolute path and must exist
+        collapsable: false, // optional, defaults to true
+        sidebarDepth: 1, // optional, defaults to 1
+        children: getChildren("./docs/public-api-method-details/"),
       },
     ],
   },
