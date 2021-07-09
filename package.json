@@ -15,10 +15,14 @@
   "keywords": [],
   "author": "",
   "bugs": {
-      "url": "https://github.com/agursoyy/vuepress-documentor/issues"
+    "url": "https://github.com/agursoyy/vuepress-documentor/issues"
   },
   "homepage": "https://github.com/agursoyy/vuepress-documentor#readme",
   "devDependencies": {
     "vuepress": "^1.8.2"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
   }
 }
