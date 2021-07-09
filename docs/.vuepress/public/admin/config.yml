@@ -17,12 +17,11 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-  - name: "building-a-request"
-    label: "Building a Request"
-    folder: "docs/building-a-request"
+  - name: "public-api-method-details"
+    label: "Public API Method Details"
+    folder: "docs/public-api-method-details"
     create: true
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Code", name: "code", widget: "code" }
