@@ -17,6 +17,14 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+  - name: "getting-started/notifications"
+    label: "Getting Started-Notifications"
+    folder: "docs/getting-started/notifications"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
   - name: "public-api-method-details"
     label: "Public API Method Details"
     folder: "docs/public api method details"
