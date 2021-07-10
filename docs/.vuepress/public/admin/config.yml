@@ -17,7 +17,7 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-    name: "getting-started/notifications"
+    name: "getting-started-notifications"
     label: "Getting Started-Notifications"
     folder: "docs/getting-started/notifications"
     create: true
@@ -25,7 +25,7 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-    name: "getting-started/cargo"
+    name: "getting-started-cargo"
     label: "Getting Started-Cargo"
     folder: "docs/getting-started/cargo"
     create: true
