@@ -25,6 +25,14 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+  - name: "getting-started-cargo"
+    label: "Getting Started-Cargo"
+    folder: "docs/getting-started/cargo"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
   - name: "public-api-method-details"
     label: "Public API Method Details"
     folder: "docs/public api method details"
