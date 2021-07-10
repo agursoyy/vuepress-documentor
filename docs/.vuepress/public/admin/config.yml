@@ -17,7 +17,6 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-        - name: "getting-started"
     name: "getting-started/notifications"
     label: "Getting Started-Notifications"
     folder: "docs/getting-started/notifications"
