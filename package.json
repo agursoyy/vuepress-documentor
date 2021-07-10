@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "fs": "0.0.1-security",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "vuepress-bar": "^0.4.2"
   }
 }

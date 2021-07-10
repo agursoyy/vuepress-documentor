@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const getConfig = require("vuepress-bar");
 
 function getSideBar(folder, title) {
   const extension = [".md"];
@@ -26,6 +27,10 @@ function getSideBar(folder, title) {
   };
 }
 
+const { nav, sidebar } = getConfig(path.join(`${__dirname}/../`), {
+  addReadMeToFirstGroup: false,
+  stripNumbers: false,
+});
 module.exports = {
   title: "Hello VuePress",
   description: "Just playing around",
@@ -34,16 +39,6 @@ module.exports = {
       { text: "Home", link: "/" },
       { text: "Guide", link: "/getting-started" },
     ],
-    sidebar: [
-      {
-        ...getSideBar("/getting-started", "Getting Started"),
-      },
-      {
-        ...getSideBar(
-          "/public-api-method-details",
-          "Public Api Method Details"
-        ),
-      },
-    ],
+    sidebar,
   },
 };
